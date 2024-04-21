@@ -1,0 +1,28 @@
+package com.app.finder.Entity;
+
+import jakarta.annotation.Generated;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="Users")
+public class Users {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long UserId;
+	
+	public String FirstName;
+	public String LastName;
+	public String Genderl;
+	public String PhoneNumber;
+	public String Country;
+	public String State;
+	
+	
+	
+	
+}

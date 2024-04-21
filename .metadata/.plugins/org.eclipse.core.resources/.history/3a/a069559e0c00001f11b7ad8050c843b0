@@ -1,0 +1,15 @@
+package com.app.finder.service;
+
+import java.util.List;
+
+import com.app.finder.Entity.Users;
+
+public interface UserService {
+
+	public Users createUsers(Users user);
+	public Users getUserDetails(Long UserId);
+	public Users updateUserDetails(Long UserId);
+	public void deleteUser(Long UserId);
+	public List<Users> getallUsers();
+	
+}

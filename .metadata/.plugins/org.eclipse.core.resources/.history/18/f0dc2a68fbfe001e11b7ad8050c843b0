@@ -1,0 +1,9 @@
+package com.app.finder.Entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Users {
+
+	
+}
